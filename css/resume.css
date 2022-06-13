@@ -189,3 +189,36 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+/* ------------------------------------------------------ */
+/* -- Experience -- */
+
+.experience {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  text-align: right;
+}
+
+.experience img {
+  max-width: 300px;
+  height: auto;
+
+  margin: 20px auto;
+
+  border-radius: 50%;
+}
+
+.header__content {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.header__content h1 {
+  font-size: 48px;
+}
+
+.header__content p {
+  font-size: 32px;
+}
